@@ -10,6 +10,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@monorepo-template/app1": "workspace:^",
+    "@monorepo-template/app2": "workspace:^",
+    "@monorepo-template/app3": "workspace:^",
     "typescript": "^5.1.6"
   },
   "engines": {

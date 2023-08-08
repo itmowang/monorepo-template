@@ -1,9 +1,27 @@
 lockfileVersion: '6.0'
 
-dependencies:
-  typescript:
-    specifier: ^5.1.6
-    version: 5.1.6
+importers:
+
+  .:
+    dependencies:
+      '@monorepo-template/app1':
+        specifier: workspace:^
+        version: link:packages/app1
+      '@monorepo-template/app2':
+        specifier: workspace:^
+        version: link:packages/app2
+      '@monorepo-template/app3':
+        specifier: workspace:^
+        version: link:packages/app3
+      typescript:
+        specifier: ^5.1.6
+        version: 5.1.6
+
+  packages/app1: {}
+
+  packages/app2: {}
+
+  packages/app3: {}
 
 packages:
 
