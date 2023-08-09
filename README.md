@@ -11,14 +11,14 @@ pnpm run start
 
 ## 项目整合功能
 - [x] typescript
-- [] eslint
-- [] prettier
-- [] commitlint
-- [] husky
-- [] lint-staged
+- [ ] eslint
+- [ ] prettier
+- [ ] commitlint
+- [ ] husky
+- [ ] lint-staged
 - [x] pnpm
 - [x] monorepo
-- [] tailwindcss
+- [ ] tailwindcss
 
 ## 项目结构
 ```
